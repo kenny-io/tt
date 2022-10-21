@@ -8,7 +8,10 @@ export default function About() {
           name="description"
           content="About the company and it's employees"
         />
-        <meta property="og:image" content="/api/dynamic-title" />
+        <meta
+          property="og:image"
+          content="https://og-test-chi.vercel.app/api/dynamic-title"
+        />
       </Head>
       <div>
         <h1>About Us</h1>
