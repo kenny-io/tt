@@ -9,6 +9,10 @@ export default function Contact() {
           content="https://og-test-chi.vercel.app/api/dynamic-title?title=Contact Our Company"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta
+          name="description"
+          content="Contact the company and it's employees"
+        ></meta>
       </Head>
       <div>
         <h1>Contact Us</h1>
