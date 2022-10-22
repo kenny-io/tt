@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us</title>
+        <title>Profile</title>
         <meta
           property="og:image"
           content="https://og-test-chi.vercel.app/api/external-dynamic-images?username=kenny-io"
@@ -15,7 +15,7 @@ export default function Contact() {
         ></meta>
       </Head>
       <div>
-        <h1>Kenny&rsquo;s Github Profile</h1>
+        <h1> Profile Page</h1>
       </div>
     </>
   );

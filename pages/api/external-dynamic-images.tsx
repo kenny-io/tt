@@ -7,8 +7,10 @@ export const config = {
 
 export default function handler(req: NextRequest) {
   // get username from request URL
-  const reqURL = new URL(req.url);
-  const username = reqURL.searchParams.get("username");
+  const { searchParams } = req.nextUrl;
+  const username = searchParams.get("username");
+  console.log(username);
+
   if (!username) {
     return new Response("Username is required");
   }
