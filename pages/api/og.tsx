@@ -1,4 +1,3 @@
-import { NextRequest } from "next/server";
 import { ImageResponse } from "@vercel/og";
 
 export const config = {
@@ -20,7 +19,7 @@ export default function handler() {
           fontSize: 128,
         }}
       >
-        <h1>My Social Image</h1>
+        <h1>Demo for CityJS</h1>
       </div>
     ),
     {

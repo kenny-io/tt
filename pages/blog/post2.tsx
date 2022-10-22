@@ -8,9 +8,8 @@ const Post2: NextPage = () => {
       <Head>
         <title>Post 2</title>
         <meta
-          name="description"
           property="og:image"
-          content="https://og-test-chi.vercel.app/api/og?title=Learning Algorithms"
+          content="https://og-test-chi.vercel.app/api/dynamic-title?title=Learning Algorithms"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
