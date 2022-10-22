@@ -9,22 +9,14 @@ export default function handler() {
     (
       <div
         style={{
-          fontSize: 60,
-          fontStyle: "normal",
-          letterSpacing: "-0.025em",
-          color: "white",
-          marginTop: 30,
-          padding: "0 120px",
-          lineHeight: 1.4,
-          whiteSpace: "pre-wrap",
-          //   display: "flex",
-          //   width: "100%",
-          //   height: "100%",
-          //   alignItems: "center",
-          //   justifyContent: "center",
-          //   textAlign: "center",
-          //   backgroundColor: "#fff",
-          //   fontSize: 128,
+          fontSize: 128,
+          background: "white",
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          textAlign: "center",
+          alignItems: "center",
+          justifyContent: "center",
         }}
       >
         <h1>Demo for CityJS</h1>
