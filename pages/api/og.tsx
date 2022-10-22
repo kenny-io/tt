@@ -24,7 +24,7 @@ export default function handler() {
     ),
     {
       width: 1200,
-      height: 630,
+      height: 600,
     }
   );
 }
